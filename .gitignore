@@ -17,6 +17,9 @@ DerivedData
 .idea/
 *.hmap
 
+#generated data
+ConnectSDK.xcodeproj/project.xcworkspace/xcshareddata/
+
 #CocoaPods
 Pods
 
