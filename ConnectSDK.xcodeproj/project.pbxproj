@@ -28,7 +28,6 @@
 		146A7D1B1B2896C300260441 /* FireTVIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 146A7D1A1B2896C300260441 /* FireTVIntegrationTests.m */; };
 		440A031D1A854EDE0007E3D3 /* WebOSTVServiceSocketClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 440A031C1A854EDE0007E3D3 /* WebOSTVServiceSocketClientTests.m */; };
 		44166C561B4203880052F9EC /* libConnectSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA61EB1018FE485B00D75696 /* libConnectSDK.a */; };
-		44166C5C1B420B6A0052F9EC /* AirPlayServiceAcceptanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E98F991B1E733D0043BC70 /* AirPlayServiceAcceptanceTests.m */; };
 		44166C5D1B420B6A0052F9EC /* DLNAServiceAcceptanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 447F63431B14FDC600699843 /* DLNAServiceAcceptanceTests.m */; };
 		44166C5E1B420C270052F9EC /* Expecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449A37101B0FE03400E47DAC /* Expecta.framework */; };
 		44166C5F1B420C270052F9EC /* Specta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449A37111B0FE03400E47DAC /* Specta.framework */; };
@@ -52,8 +51,6 @@
 		441C9EFF1B3DD8C500F912D5 /* SubscriptionDeduplicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C9EFE1B3DD8C500F912D5 /* SubscriptionDeduplicatorTests.m */; };
 		441FE0EF1B1528D0006C47CE /* EXPMatchers+matchRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 441FE0EE1B1528D0006C47CE /* EXPMatchers+matchRegex.m */; };
 		44291C521A68B4C000280E5C /* SSDPDiscoveryProvider_FilteringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44291C511A68B4C000280E5C /* SSDPDiscoveryProvider_FilteringTests.m */; };
-		443063C11A4210F0007779DA /* AirPlayServiceHTTPKeepAlive.h in Headers */ = {isa = PBXBuildFile; fileRef = 443063BF1A4210F0007779DA /* AirPlayServiceHTTPKeepAlive.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		443063C21A4210F0007779DA /* AirPlayServiceHTTPKeepAlive.m in Sources */ = {isa = PBXBuildFile; fileRef = 443063C01A4210F0007779DA /* AirPlayServiceHTTPKeepAlive.m */; };
 		44316EFE1AF2F04B000FE655 /* FireTVDiscoveryProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 44316EFC1AF2F04B000FE655 /* FireTVDiscoveryProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44316EFF1AF2F04B000FE655 /* FireTVDiscoveryProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 44316EFD1AF2F04B000FE655 /* FireTVDiscoveryProvider.m */; };
 		44316F021AF2F09B000FE655 /* FireTVDiscoveryProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44316F011AF2F09B000FE655 /* FireTVDiscoveryProviderTests.m */; };
@@ -63,9 +60,7 @@
 		44316F081AF2F9BF000FE655 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44316F071AF2F9BF000FE655 /* AdSupport.framework */; };
 		44316F291AF3F17A000FE655 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44316F251AF3F17A000FE655 /* OCMock.framework */; };
 		44316F2B1AF3F17A000FE655 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44316F271AF3F17A000FE655 /* OHHTTPStubs.framework */; };
-		4433F3DF1A421750008D9A04 /* AirPlayServiceHTTPKeepAliveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4433F3DE1A421750008D9A04 /* AirPlayServiceHTTPKeepAliveTests.m */; };
 		444287CA1B055E0C00B1F875 /* XCTestCase+TaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 444287C91B055E0C00B1F875 /* XCTestCase+TaskTests.m */; };
-		44758BBB1AE6C06200EC43A6 /* AirPlayServiceHTTPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44758BBA1AE6C06200EC43A6 /* AirPlayServiceHTTPTests.m */; };
 		44758BCE1AE7070600EC43A6 /* airplay_playbackinfo_ff.json in Resources */ = {isa = PBXBuildFile; fileRef = 44758BC91AE7070500EC43A6 /* airplay_playbackinfo_ff.json */; };
 		44758BCF1AE7070600EC43A6 /* airplay_playbackinfo_finished.json in Resources */ = {isa = PBXBuildFile; fileRef = 44758BCA1AE7070500EC43A6 /* airplay_playbackinfo_finished.json */; };
 		44758BD01AE7070600EC43A6 /* airplay_playbackinfo_paused.json in Resources */ = {isa = PBXBuildFile; fileRef = 44758BCB1AE7070500EC43A6 /* airplay_playbackinfo_paused.json */; };
@@ -121,7 +116,6 @@
 		449A371C1B0FE3A500E47DAC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA61EBF118FE48EF00D75696 /* MobileCoreServices.framework */; };
 		449CC26B1AF9458E0064F2F7 /* ServiceDescriptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449CC26A1AF9458E0064F2F7 /* ServiceDescriptionTests.m */; };
 		44A08FFA1B698E170077E87D /* WebAppSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A08FF91B698E170077E87D /* WebAppSessionTests.m */; };
-		44A08FFC1B698FCB0077E87D /* AirPlayServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A08FFB1B698FCB0077E87D /* AirPlayServiceTests.m */; };
 		44A090001B6B05850077E87D /* CastWebAppSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A08FFF1B6B05850077E87D /* CastWebAppSessionTests.m */; };
 		44A090041B6BDDBC0077E87D /* NSObject+FeatureNotSupported_Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A090021B6BDDBC0077E87D /* NSObject+FeatureNotSupported_Private.m */; };
 		44A090071B6C07370077E87D /* XCTestCase+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A090061B6C07370077E87D /* XCTestCase+Common.m */; };
@@ -287,8 +281,6 @@
 		EA5FB8CB199AEC560057B4B4 /* SSDPSocketListener.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FB813199AEC550057B4B4 /* SSDPSocketListener.m */; };
 		EA5FB8CC199AEC560057B4B4 /* TextInputStatusInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5FB814199AEC550057B4B4 /* TextInputStatusInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA5FB8CD199AEC560057B4B4 /* TextInputStatusInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FB815199AEC550057B4B4 /* TextInputStatusInfo.m */; };
-		EA5FB8CE199AEC560057B4B4 /* AirPlayService.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5FB817199AEC550057B4B4 /* AirPlayService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA5FB8CF199AEC560057B4B4 /* AirPlayService.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FB818199AEC550057B4B4 /* AirPlayService.m */; };
 		EA5FB8D0199AEC560057B4B4 /* Capability.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5FB81A199AEC550057B4B4 /* Capability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA5FB8D1199AEC560057B4B4 /* ExternalInputControl.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5FB81B199AEC550057B4B4 /* ExternalInputControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA5FB8D2199AEC560057B4B4 /* KeyControl.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5FB81C199AEC550057B4B4 /* KeyControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -325,10 +317,6 @@
 		EA5FB8F1199AEC570057B4B4 /* DIALService.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FB83D199AEC550057B4B4 /* DIALService.m */; };
 		EA5FB8F2199AEC570057B4B4 /* DLNAService.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5FB83E199AEC550057B4B4 /* DLNAService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA5FB8F3199AEC570057B4B4 /* DLNAService.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FB83F199AEC550057B4B4 /* DLNAService.m */; };
-		EA5FB8F4199AEC570057B4B4 /* AirPlayServiceHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5FB841199AEC550057B4B4 /* AirPlayServiceHTTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA5FB8F5199AEC570057B4B4 /* AirPlayServiceHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FB842199AEC550057B4B4 /* AirPlayServiceHTTP.m */; };
-		EA5FB8F6199AEC570057B4B4 /* AirPlayServiceMirrored.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5FB843199AEC550057B4B4 /* AirPlayServiceMirrored.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA5FB8F7199AEC570057B4B4 /* AirPlayServiceMirrored.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FB844199AEC550057B4B4 /* AirPlayServiceMirrored.m */; };
 		EA5FB8F8199AEC570057B4B4 /* WebOSTVServiceMouse.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5FB845199AEC550057B4B4 /* WebOSTVServiceMouse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA5FB8F9199AEC570057B4B4 /* WebOSTVServiceMouse.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FB846199AEC550057B4B4 /* WebOSTVServiceMouse.m */; };
 		EA5FB8FA199AEC570057B4B4 /* WebOSTVServiceSocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5FB847199AEC550057B4B4 /* WebOSTVServiceSocketClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -337,8 +325,6 @@
 		EA5FB8FD199AEC570057B4B4 /* NetcastTVService.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FB84A199AEC550057B4B4 /* NetcastTVService.m */; };
 		EA5FB8FE199AEC570057B4B4 /* RokuService.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5FB84B199AEC550057B4B4 /* RokuService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA5FB8FF199AEC570057B4B4 /* RokuService.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FB84C199AEC550057B4B4 /* RokuService.m */; };
-		EA5FB900199AEC570057B4B4 /* AirPlayWebAppSession.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5FB84E199AEC550057B4B4 /* AirPlayWebAppSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA5FB901199AEC570057B4B4 /* AirPlayWebAppSession.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FB84F199AEC550057B4B4 /* AirPlayWebAppSession.m */; };
 		EA5FB902199AEC570057B4B4 /* LaunchSession.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5FB850199AEC550057B4B4 /* LaunchSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA5FB903199AEC570057B4B4 /* LaunchSession.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FB851199AEC550057B4B4 /* LaunchSession.m */; };
 		EA5FB904199AEC570057B4B4 /* WebAppSession.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5FB852199AEC550057B4B4 /* WebAppSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -423,8 +409,6 @@
 		44291C481A6705E400280E5C /* DLNAHTTPServer_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLNAHTTPServer_Private.h; sourceTree = "<group>"; };
 		44291C511A68B4C000280E5C /* SSDPDiscoveryProvider_FilteringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPDiscoveryProvider_FilteringTests.m; sourceTree = "<group>"; };
 		442B9A431A153F240053AE51 /* SSDPDiscoveryProvider_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDPDiscoveryProvider_Private.h; sourceTree = "<group>"; };
-		443063BF1A4210F0007779DA /* AirPlayServiceHTTPKeepAlive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayServiceHTTPKeepAlive.h; sourceTree = "<group>"; };
-		443063C01A4210F0007779DA /* AirPlayServiceHTTPKeepAlive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceHTTPKeepAlive.m; sourceTree = "<group>"; };
 		44316EF31AF2EBF5000FE655 /* AmazonFling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AmazonFling.framework; sourceTree = "<group>"; };
 		44316EF41AF2EBF5000FE655 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		44316EFC1AF2F04B000FE655 /* FireTVDiscoveryProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireTVDiscoveryProvider.h; sourceTree = "<group>"; };
@@ -434,11 +418,8 @@
 		44316F071AF2F9BF000FE655 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		44316F251AF3F17A000FE655 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMock.framework; sourceTree = "<group>"; };
 		44316F271AF3F17A000FE655 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OHHTTPStubs.framework; sourceTree = "<group>"; };
-		4433F3DE1A421750008D9A04 /* AirPlayServiceHTTPKeepAliveTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceHTTPKeepAliveTests.m; sourceTree = "<group>"; };
 		444287C81B055E0C00B1F875 /* XCTestCase+TaskTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+TaskTests.h"; sourceTree = "<group>"; };
 		444287C91B055E0C00B1F875 /* XCTestCase+TaskTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+TaskTests.m"; sourceTree = "<group>"; };
-		44758BBA1AE6C06200EC43A6 /* AirPlayServiceHTTPTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceHTTPTests.m; sourceTree = "<group>"; };
-		44758BBC1AE6C6E300EC43A6 /* AirPlayServiceHTTP_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayServiceHTTP_Private.h; sourceTree = "<group>"; };
 		44758BC91AE7070500EC43A6 /* airplay_playbackinfo_ff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airplay_playbackinfo_ff.json; sourceTree = "<group>"; };
 		44758BCA1AE7070500EC43A6 /* airplay_playbackinfo_finished.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airplay_playbackinfo_finished.json; sourceTree = "<group>"; };
 		44758BCB1AE7070500EC43A6 /* airplay_playbackinfo_paused.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airplay_playbackinfo_paused.json; sourceTree = "<group>"; };
@@ -495,8 +476,6 @@
 		449A37111B0FE03400E47DAC /* Specta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Specta.framework; sourceTree = "<group>"; };
 		449CC26A1AF9458E0064F2F7 /* ServiceDescriptionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDescriptionTests.m; sourceTree = "<group>"; };
 		44A08FF91B698E170077E87D /* WebAppSessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebAppSessionTests.m; sourceTree = "<group>"; };
-		44A08FFB1B698FCB0077E87D /* AirPlayServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceTests.m; sourceTree = "<group>"; };
-		44A08FFD1B6991CC0077E87D /* AirPlayService_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayService_Private.h; sourceTree = "<group>"; };
 		44A08FFF1B6B05850077E87D /* CastWebAppSessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CastWebAppSessionTests.m; sourceTree = "<group>"; };
 		44A090011B6BDDBC0077E87D /* NSObject+FeatureNotSupported_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FeatureNotSupported_Private.h"; sourceTree = "<group>"; };
 		44A090021B6BDDBC0077E87D /* NSObject+FeatureNotSupported_Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FeatureNotSupported_Private.m"; sourceTree = "<group>"; };
@@ -556,7 +535,6 @@
 		44E98F5E1B1E63570043BC70 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OHHTTPStubs.framework; sourceTree = "<group>"; };
 		44E98F951B1E72D80043BC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44E98F961B1E72D80043BC70 /* the-san-francisco-peaks-of-flagstaff-718x544.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-san-francisco-peaks-of-flagstaff-718x544.jpg"; sourceTree = "<group>"; };
-		44E98F991B1E733D0043BC70 /* AirPlayServiceAcceptanceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceAcceptanceTests.m; sourceTree = "<group>"; };
 		44EF618C1A12DF2D00CF344C /* ConnectSDKTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConnectSDKTests-Prefix.pch"; sourceTree = "<group>"; };
 		44EF618E1A12E0A400CF344C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		44EF61971A12E1C800CF344C /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
@@ -672,8 +650,6 @@
 		EA5FB813199AEC550057B4B4 /* SSDPSocketListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPSocketListener.m; sourceTree = "<group>"; };
 		EA5FB814199AEC550057B4B4 /* TextInputStatusInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextInputStatusInfo.h; sourceTree = "<group>"; };
 		EA5FB815199AEC550057B4B4 /* TextInputStatusInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextInputStatusInfo.m; sourceTree = "<group>"; };
-		EA5FB817199AEC550057B4B4 /* AirPlayService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayService.h; sourceTree = "<group>"; };
-		EA5FB818199AEC550057B4B4 /* AirPlayService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayService.m; sourceTree = "<group>"; };
 		EA5FB81A199AEC550057B4B4 /* Capability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Capability.h; sourceTree = "<group>"; };
 		EA5FB81B199AEC550057B4B4 /* ExternalInputControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalInputControl.h; sourceTree = "<group>"; };
 		EA5FB81C199AEC550057B4B4 /* KeyControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyControl.h; sourceTree = "<group>"; };
@@ -710,10 +686,6 @@
 		EA5FB83D199AEC550057B4B4 /* DIALService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALService.m; sourceTree = "<group>"; };
 		EA5FB83E199AEC550057B4B4 /* DLNAService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNAService.h; sourceTree = "<group>"; };
 		EA5FB83F199AEC550057B4B4 /* DLNAService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNAService.m; sourceTree = "<group>"; };
-		EA5FB841199AEC550057B4B4 /* AirPlayServiceHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayServiceHTTP.h; sourceTree = "<group>"; };
-		EA5FB842199AEC550057B4B4 /* AirPlayServiceHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceHTTP.m; sourceTree = "<group>"; };
-		EA5FB843199AEC550057B4B4 /* AirPlayServiceMirrored.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayServiceMirrored.h; sourceTree = "<group>"; };
-		EA5FB844199AEC550057B4B4 /* AirPlayServiceMirrored.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayServiceMirrored.m; sourceTree = "<group>"; };
 		EA5FB845199AEC550057B4B4 /* WebOSTVServiceMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebOSTVServiceMouse.h; sourceTree = "<group>"; };
 		EA5FB846199AEC550057B4B4 /* WebOSTVServiceMouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebOSTVServiceMouse.m; sourceTree = "<group>"; };
 		EA5FB847199AEC550057B4B4 /* WebOSTVServiceSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebOSTVServiceSocketClient.h; sourceTree = "<group>"; };
@@ -722,8 +694,6 @@
 		EA5FB84A199AEC550057B4B4 /* NetcastTVService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetcastTVService.m; sourceTree = "<group>"; };
 		EA5FB84B199AEC550057B4B4 /* RokuService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RokuService.h; sourceTree = "<group>"; };
 		EA5FB84C199AEC550057B4B4 /* RokuService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RokuService.m; sourceTree = "<group>"; };
-		EA5FB84E199AEC550057B4B4 /* AirPlayWebAppSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayWebAppSession.h; sourceTree = "<group>"; };
-		EA5FB84F199AEC550057B4B4 /* AirPlayWebAppSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayWebAppSession.m; sourceTree = "<group>"; };
 		EA5FB850199AEC550057B4B4 /* LaunchSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchSession.h; sourceTree = "<group>"; };
 		EA5FB851199AEC550057B4B4 /* LaunchSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchSession.m; sourceTree = "<group>"; };
 		EA5FB852199AEC550057B4B4 /* WebAppSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebAppSession.h; sourceTree = "<group>"; };
@@ -830,7 +800,6 @@
 		44166C511B4203880052F9EC /* ConnectSDKAcceptanceTests */ = {
 			isa = PBXGroup;
 			children = (
-				44E98F991B1E733D0043BC70 /* AirPlayServiceAcceptanceTests.m */,
 				447F63431B14FDC600699843 /* DLNAServiceAcceptanceTests.m */,
 				44166C521B4203880052F9EC /* Supporting Files */,
 			);
@@ -924,7 +893,6 @@
 				449CC2691AF945800064F2F7 /* Config */,
 				4433F3DD1A421733008D9A04 /* Helpers */,
 				44A0E1A41B3B2F5C00ADF95F /* Sessions */,
-				44A08FFB1B698FCB0077E87D /* AirPlayServiceTests.m */,
 				4498D9911A65B69F008C0B72 /* DLNAServiceTests.m */,
 				44A5518E1AC1DF4C001AF783 /* NetcastTVServiceTests.m */,
 				44789D841B585525001D5098 /* RokuServiceTests.m */,
@@ -947,8 +915,6 @@
 			isa = PBXGroup;
 			children = (
 				44758BC01AE6DB7400EC43A6 /* sample_data */,
-				4433F3DE1A421750008D9A04 /* AirPlayServiceHTTPKeepAliveTests.m */,
-				44758BBA1AE6C06200EC43A6 /* AirPlayServiceHTTPTests.m */,
 				4498D9A81A66F027008C0B72 /* DLNAHTTPServerTests.m */,
 				440A031C1A854EDE0007E3D3 /* WebOSTVServiceSocketClientTests.m */,
 			);
@@ -1195,6 +1161,15 @@
 				448F36C41A1BD64200536649 /* ZeroConfDiscoveryProviderTests.m */,
 			);
 			path = Providers;
+			sourceTree = "<group>";
+		};
+		6ED64D2C2C11AFDA0093F89E /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				44E98F5E1B1E63570043BC70 /* OHHTTPStubs.framework */,
+				44E98F5D1B1E63570043BC70 /* OCMock.framework */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 		EA5FB799199AEC2E0057B4B4 /* Connect SDK */ = {
@@ -1472,9 +1447,6 @@
 		EA5FB816199AEC550057B4B4 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				EA5FB817199AEC550057B4B4 /* AirPlayService.h */,
-				44A08FFD1B6991CC0077E87D /* AirPlayService_Private.h */,
-				EA5FB818199AEC550057B4B4 /* AirPlayService.m */,
 				EA5FB819199AEC550057B4B4 /* Capabilities */,
 				EA5FB827199AEC550057B4B4 /* Commands */,
 				EA5FB82F199AEC550057B4B4 /* Config */,
@@ -1556,13 +1528,6 @@
 		EA5FB840199AEC550057B4B4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				EA5FB841199AEC550057B4B4 /* AirPlayServiceHTTP.h */,
-				44758BBC1AE6C6E300EC43A6 /* AirPlayServiceHTTP_Private.h */,
-				EA5FB842199AEC550057B4B4 /* AirPlayServiceHTTP.m */,
-				443063BF1A4210F0007779DA /* AirPlayServiceHTTPKeepAlive.h */,
-				443063C01A4210F0007779DA /* AirPlayServiceHTTPKeepAlive.m */,
-				EA5FB843199AEC550057B4B4 /* AirPlayServiceMirrored.h */,
-				EA5FB844199AEC550057B4B4 /* AirPlayServiceMirrored.m */,
 				44A090011B6BDDBC0077E87D /* NSObject+FeatureNotSupported_Private.h */,
 				44A090021B6BDDBC0077E87D /* NSObject+FeatureNotSupported_Private.m */,
 				EA5FB845199AEC550057B4B4 /* WebOSTVServiceMouse.h */,
@@ -1582,8 +1547,6 @@
 		EA5FB84D199AEC550057B4B4 /* Sessions */ = {
 			isa = PBXGroup;
 			children = (
-				EA5FB84E199AEC550057B4B4 /* AirPlayWebAppSession.h */,
-				EA5FB84F199AEC550057B4B4 /* AirPlayWebAppSession.m */,
 				EA5FB850199AEC550057B4B4 /* LaunchSession.h */,
 				EA5FB851199AEC550057B4B4 /* LaunchSession.m */,
 				EA5FB852199AEC550057B4B4 /* WebAppSession.h */,
@@ -1629,6 +1592,7 @@
 				EA5FB799199AEC2E0057B4B4 /* Connect SDK */,
 				EA61EB1218FE485B00D75696 /* Frameworks */,
 				EA61EB1118FE485B00D75696 /* Products */,
+				6ED64D2C2C11AFDA0093F89E /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1690,9 +1654,7 @@
 				44C2CCA11AB7A33500B20E46 /* NSString+Common.h in Headers */,
 				EA5FB89B199AEC560057B4B4 /* GCDWebServerConnection.h in Headers */,
 				EA5FB8D6199AEC560057B4B4 /* MouseControl.h in Headers */,
-				443063C11A4210F0007779DA /* AirPlayServiceHTTPKeepAlive.h in Headers */,
 				EA5FB909199AEC570057B4B4 /* WebOSTVService.h in Headers */,
-				EA5FB8CE199AEC560057B4B4 /* AirPlayService.h in Headers */,
 				EA5FB89F199AEC560057B4B4 /* GCDWebServerHTTPStatusCodes.h in Headers */,
 				EA5FB8E4199AEC560057B4B4 /* NetcastTVServiceConfig.h in Headers */,
 				EA5FB906199AEC570057B4B4 /* WebAppSessionDelegate.h in Headers */,
@@ -1731,7 +1693,6 @@
 				EA5FB870199AEC550057B4B4 /* ConnectableDeviceDelegate.h in Headers */,
 				EA5FB8D2199AEC560057B4B4 /* KeyControl.h in Headers */,
 				EA5FB8A0199AEC560057B4B4 /* GCDWebServerPrivate.h in Headers */,
-				EA5FB8F6199AEC570057B4B4 /* AirPlayServiceMirrored.h in Headers */,
 				448B28781B041A5600DFF18F /* FireTVMediaPlayer.h in Headers */,
 				EA5FB883199AEC550057B4B4 /* CTASIAuthenticationDialog.h in Headers */,
 				EA5FB8A3199AEC560057B4B4 /* GCDWebServerResponse.h in Headers */,
@@ -1739,7 +1700,6 @@
 				EA5FB87F199AEC550057B4B4 /* SSDPDiscoveryProvider.h in Headers */,
 				EA5FB8E9199AEC570057B4B4 /* ServiceDescription.h in Headers */,
 				4498D98C1A659F43008C0B72 /* NSDictionary+KeyPredicateSearch.h in Headers */,
-				EA5FB900199AEC570057B4B4 /* AirPlayWebAppSession.h in Headers */,
 				EA5FB904199AEC570057B4B4 /* WebAppSession.h in Headers */,
 				EA5FB8FE199AEC570057B4B4 /* RokuService.h in Headers */,
 				EA5FB894199AEC560057B4B4 /* CTASINetworkQueue.h in Headers */,
@@ -1763,7 +1723,6 @@
 				EA5FB8A5199AEC560057B4B4 /* GCDWebServerDataRequest.h in Headers */,
 				EA5FB886199AEC560057B4B4 /* CTASIDataCompressor.h in Headers */,
 				EA5FB871199AEC550057B4B4 /* ConnectableDeviceStore.h in Headers */,
-				EA5FB8F4199AEC570057B4B4 /* AirPlayServiceHTTP.h in Headers */,
 				EA5FB874199AEC550057B4B4 /* DevicePicker.h in Headers */,
 				EA5FB8A1199AEC560057B4B4 /* GCDWebServerRequest.h in Headers */,
 				EA5FB8BF199AEC560057B4B4 /* ConnectError.h in Headers */,
@@ -1879,12 +1838,15 @@
 				TargetAttributes = {
 					44166C4F1B4203880052F9EC = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 52PF6N7B29;
 					};
 					448085791A12A7BE00E13938 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 52PF6N7B29;
 					};
 					449A37011B0FDC1C00E47DAC = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 52PF6N7B29;
 					};
 				};
 			};
@@ -1893,6 +1855,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = EA61EB0718FE485B00D75696;
@@ -2001,7 +1964,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				44166C6B1B420DF60052F9EC /* OCMStubRecorder+SpectaAsync.m in Sources */,
-				44166C5C1B420B6A0052F9EC /* AirPlayServiceAcceptanceTests.m in Sources */,
 				44166C6E1B420ED80052F9EC /* FireTVAcceptanceTests.m in Sources */,
 				44166C6A1B420DE40052F9EC /* OCMArg+ArgumentCaptor.m in Sources */,
 				44166C5D1B420B6A0052F9EC /* DLNAServiceAcceptanceTests.m in Sources */,
@@ -2016,7 +1978,6 @@
 				44C390121B34DCAE00723388 /* DiscoveryManagerTests.m in Sources */,
 				44EF61A41A12FC8800CF344C /* SSDPDiscoveryProviderTests.m in Sources */,
 				449426351AF83055006BAFF2 /* SynchronousBlockRunnerTests.m in Sources */,
-				4433F3DF1A421750008D9A04 /* AirPlayServiceHTTPKeepAliveTests.m in Sources */,
 				44A551991AC338E0001AF783 /* WebOSTVServiceTests.m in Sources */,
 				44B43AFF1B61A497004083E5 /* CastServiceTests.m in Sources */,
 				448B28701B041A3B00DFF18F /* FireTVMediaPlayerTests.m in Sources */,
@@ -2026,7 +1987,6 @@
 				44D8F7DA1AB27B4800559FE3 /* NSInvocation+ObjectGetter.m in Sources */,
 				449CC26B1AF9458E0064F2F7 /* ServiceDescriptionTests.m in Sources */,
 				444287CA1B055E0C00B1F875 /* XCTestCase+TaskTests.m in Sources */,
-				44A08FFC1B698FCB0077E87D /* AirPlayServiceTests.m in Sources */,
 				448B286F1B041A3A00DFF18F /* FireTVMediaControlTests.m in Sources */,
 				448B286B1B03DAEA00DFF18F /* OCMArg+ArgumentCaptor.m in Sources */,
 				44291C521A68B4C000280E5C /* SSDPDiscoveryProvider_FilteringTests.m in Sources */,
@@ -2038,7 +1998,6 @@
 				441C9EFF1B3DD8C500F912D5 /* SubscriptionDeduplicatorTests.m in Sources */,
 				4498D9921A65B69F008C0B72 /* DLNAServiceTests.m in Sources */,
 				44A090001B6B05850077E87D /* CastWebAppSessionTests.m in Sources */,
-				44758BBB1AE6C06200EC43A6 /* AirPlayServiceHTTPTests.m in Sources */,
 				44AD91741AF9A02300C23A71 /* FireTVServiceTests.m in Sources */,
 				440A031D1A854EDE0007E3D3 /* WebOSTVServiceSocketClientTests.m in Sources */,
 				448414F91AEB27F400124EE9 /* OCMStubRecorder+XCTestExpectation.m in Sources */,
@@ -2078,7 +2037,6 @@
 				EA5FB8CB199AEC560057B4B4 /* SSDPSocketListener.m in Sources */,
 				EA5FB8DE199AEC560057B4B4 /* ServiceAsyncCommand.m in Sources */,
 				EA5FB8B2199AEC560057B4B4 /* GCDWebServerFileResponse.m in Sources */,
-				443063C21A4210F0007779DA /* AirPlayServiceHTTPKeepAlive.m in Sources */,
 				EA5FB8C4199AEC560057B4B4 /* DeviceServiceReachability.m in Sources */,
 				0F446CCA1A6D924D000BB1C0 /* MediaLaunchObject.m in Sources */,
 				EA5FB873199AEC550057B4B4 /* DefaultConnectableDeviceStore.m in Sources */,
@@ -2108,7 +2066,6 @@
 				EA5FB8CD199AEC560057B4B4 /* TextInputStatusInfo.m in Sources */,
 				EA5FB8EE199AEC570057B4B4 /* DeviceService.m in Sources */,
 				EA5FB875199AEC550057B4B4 /* DevicePicker.m in Sources */,
-				EA5FB8CF199AEC560057B4B4 /* AirPlayService.m in Sources */,
 				EA5FB898199AEC560057B4B4 /* CTReachability.m in Sources */,
 				EA5FB8C0199AEC560057B4B4 /* ConnectError.m in Sources */,
 				44C2CCA21AB7A33500B20E46 /* NSString+Common.m in Sources */,
@@ -2124,7 +2081,6 @@
 				EA5FB8B4199AEC560057B4B4 /* GCDWebServerStreamedResponse.m in Sources */,
 				EA5FB90E199AEC570057B4B4 /* CastService.m in Sources */,
 				44316EFF1AF2F04B000FE655 /* FireTVDiscoveryProvider.m in Sources */,
-				EA5FB8F7199AEC570057B4B4 /* AirPlayServiceMirrored.m in Sources */,
 				EA5FB86F199AEC550057B4B4 /* ConnectableDevice.m in Sources */,
 				EA5FB8E7199AEC560057B4B4 /* ServiceConfig.m in Sources */,
 				EA5FB8C2199AEC560057B4B4 /* ConnectUtil.m in Sources */,
@@ -2137,12 +2093,10 @@
 				44A499061B0AD0C1002C94E7 /* FireTVCapabilityMixin.m in Sources */,
 				EA5FB89A199AEC560057B4B4 /* GCDWebServer.m in Sources */,
 				EA5FB8FD199AEC570057B4B4 /* NetcastTVService.m in Sources */,
-				EA5FB901199AEC570057B4B4 /* AirPlayWebAppSession.m in Sources */,
 				4498D98D1A659F43008C0B72 /* NSDictionary+KeyPredicateSearch.m in Sources */,
 				EA5FB882199AEC550057B4B4 /* ZeroConfDiscoveryProvider.m in Sources */,
 				44C2CC951AB7948300B20E46 /* XMLWriter+ConvenienceMethods.m in Sources */,
 				448B28791B041A5600DFF18F /* FireTVMediaPlayer.m in Sources */,
-				EA5FB8F5199AEC570057B4B4 /* AirPlayServiceHTTP.m in Sources */,
 				449426391AF830A1006BAFF2 /* SynchronousBlockRunner.m in Sources */,
 				EA5FB8E5199AEC560057B4B4 /* NetcastTVServiceConfig.m in Sources */,
 				EA5FB88F199AEC560057B4B4 /* CTASIHTTPRequest.m in Sources */,
@@ -2204,6 +2158,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 52PF6N7B29;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -2240,6 +2195,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 52PF6N7B29;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -2270,6 +2226,7 @@
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 52PF6N7B29;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -2303,6 +2260,7 @@
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 52PF6N7B29;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -2333,6 +2291,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 52PF6N7B29;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -2369,6 +2328,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 52PF6N7B29;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
